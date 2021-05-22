@@ -1,3 +1,4 @@
+
 # Fetch Currency Rates from Coinbase Pro into a Google Sheet
 This script lets you pull crypto rates from CoinbasePro into a basic Google Sheet. You can schedule it to run automatically. 
 
@@ -37,17 +38,14 @@ No one else has access to this file unless you share it with them.
    
 2. Click through the Google approval flow and grant access. At the time I did this, this was a 4 step process:
 
-   1. ![<img src="i/oauth1_1.png" width="400"/>](i/oauth_1.jpg) 
-   1. ![<img src="i/oauth1_2.png" width="400"/>](i/oauth_2.jpg) 
-   1. ![<img src="i/oauth1_3.png" width="400"/>](i/oauth_3.jpg) 
-   1. ![<img src="i/oauth1_4.png" width="400"/>](i/oauth_4.jpg) 
+    <img src="i/oauth.gif" width="500"/>
 
 1. Once you've enabled permissions, you can run & debug functions with breakpoints. It's pretty cool!
 
 ## Run and Debug
 * While working manually, choose the function you want from the dropdown list above the editor. Then Run or Debug.
 
-    ![<img src="i/functions.png" width="600"/>](i/functions.png) 
+   <img src="i/functions.png" width="500"/>
 
 * If you get 404s when it runs, your Coinbase API keys are probably not configured correctly in your sheet. 
 
