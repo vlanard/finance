@@ -37,17 +37,17 @@ No one else has access to this file unless you share it with them.
    
 2. Click through the Google approval flow and grant access. At the time I did this, this was a 4 step process:
 
-   1. ![1 - Review Permissions](i/oauth_1.jpg) 
-   1. ![2 - click Advanced](i/oauth_2.jpg) 
-   1. ![3 - click go to project (unsafe)](i/oauth_3.jpg) 
-   1. ![4 - click Allow](i/oauth_4.jpg) 
+   1. ![<img src="i/oauth1_1.png" width="400"/>](i/oauth_1.jpg) 
+   1. ![<img src="i/oauth1_2.png" width="400"/>](i/oauth_2.jpg) 
+   1. ![<img src="i/oauth1_3.png" width="400"/>](i/oauth_3.jpg) 
+   1. ![<img src="i/oauth1_4.png" width="400"/>](i/oauth_4.jpg) 
 
 1. Once you've enabled permissions, you can run & debug functions with breakpoints. It's pretty cool!
 
 ## Run and Debug
 * While working manually, choose the function you want from the dropdown list above the editor. Then Run or Debug.
 
-    ![Function dropdown](i/functions.png) 
+    ![<img src="i/functions.png" width="600"/>](i/functions.png) 
 
 * If you get 404s when it runs, your Coinbase API keys are probably not configured correctly in your sheet. 
 
